@@ -1,5 +1,4 @@
 $(function() {
-     // com
      $(".carousel").carousel( { interval: 2000 } );
      $("#carouselButton").click(function(){
        if ($("#carouselButton").children("i").hasClass("fa-pause")) {
@@ -12,8 +11,19 @@ $(function() {
          $("#carouselButton").children("i").removeClass("fa-play");
          $("#carouselButton").children("i").addClass("fa-pause");              
        }
-     
-     $
+    });
+});
+
+$(function(){
+    $("#loginButton").click(function(){
+        alert("Function part 2 is running");
+
+        $("#loginModal").modal("show");
+    });
        
-   });
- });
+    $("#reserveButton").click(function(){
+        alert("Function part 2 is running");
+
+        $("#reserveModal").modal("show");
+    });
+});
