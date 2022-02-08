@@ -16,14 +16,10 @@ $(function() {
 
 $(function(){
     $("#loginButton").click(function(){
-        alert("Function part 2 is running");
-
         $("#loginModal").modal("show");
     });
        
     $("#reserveButton").click(function(){
-        alert("Function part 2 is running");
-
         $("#reserveModal").modal("show");
     });
 });
